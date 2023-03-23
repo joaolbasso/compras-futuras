@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+
+:root {
+    --fonte-padrao: 'Rubik', sans-serif; 
+    --fonte-preco: 'Roboto Mono', monospace;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    background-color: rgba(169, 169, 169, 0.788);
+}
+
+table {
+    margin: auto;
+    width: 1000px;
+    border-collapse: collapse;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.295);
+}
+
+caption {
+    padding: 10px;
+    font-size: 2em;
+    background-image: linear-gradient(to right, gray, lightgray);
+    background-image: url(imagens/paraguai.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 1px dashed black;
+    color: black;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+th, #total {
+    font-size: 1.3em;
+}
+
+.equip {
+    background-color: rgba(95, 158, 160, 0.692);
+}
+
+.marca {
+    background-color: rgba(30, 143, 255, 0.527);
+}
+
+.modelo {
+    background-color: lightskyblue;
+}
+
+.preco {
+    background-color: springgreen;
+    font-family: var(--fonte-preco);
+}
