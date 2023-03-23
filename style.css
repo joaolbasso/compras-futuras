@@ -27,7 +27,7 @@ caption {
     padding: 10px;
     font-size: 2em;
     background-image: linear-gradient(to right, gray, lightgray);
-    background-image: url(imagens/paraguai.jpg);
+    background-image: url('imagens/paraguai.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     border: 1px dashed black;
